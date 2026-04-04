@@ -39,8 +39,12 @@ This project demonstrates the implementation of core machine learning algorithms
 #### Decision Boundary
 The model successfully learns a linear decision boundary separating two classes.
 
+![Logistic Decision Boundary](images/logistic_boundary.png)
+
 #### Training Loss Curve
 The loss decreases smoothly over iterations, indicating proper convergence using gradient descent.
+
+![Logistic Loss](images/logistic_loss.png)
 
 ---
 ### 🔹Softmax Regression (Multiclass Classification)
@@ -48,10 +52,12 @@ The loss decreases smoothly over iterations, indicating proper convergence using
 #### Decision Boundary
 The model effectively separates data into multiple classes with clear decision regions.
 
+![Softmax Regions](images/softmax_regions.png)
+
 #### Training Loss Curve
 The loss decreases consistently, showing stable training for multiclass classification.
 
-
+![Softmax Loss](images/softmax_loss.png)
 
 ## 🎯 Key Learning Outcomes
 - Strong understanding of model internals (not just usage)
